@@ -12,6 +12,8 @@ function App() {
 
   return (
     <>
+      <img alt="from assets. Dynamycal. Hashed" src={reactLogo}/>
+      <img alt="from public. static" src={viteLogo}/>
       <input type="date" onChange={(e)=> {setCount(e.currentTarget.value) ; console.log(count)} }/>
 
       
